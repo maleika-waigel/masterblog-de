@@ -10,6 +10,30 @@ h1 {
     color: #4F4F4F;
 }
 
+.center{
+    text-align: center;
+}
+
+a.button {
+    background: #333;
+    color: #fff;
+    padding: 15px 30px;
+    margin: 40px 0 20px 0;
+    border: 0.5px solid #fff;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+a.button:hover {
+    background: #fff;
+    color: #333;
+    border: 0.5px solid #333;
+}
+a.back_button {
+    text-align: center;
+    margin: 40px auto 20px auto;
+}
+
 .post {
     background-color: #FFF;
     border: 1px solid #DDD;
@@ -24,4 +48,59 @@ h1 {
 
 .post p {
     margin: 10px 0;
+}
+
+
+/* add.html Formular */
+
+form {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #FFF;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color .2s ease-in-out;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    border-color: #4F4F4F;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #FFF;
+    padding: 15px 30px;
+    border: 0.5px solid #333;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: all .2s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+    background: #FFF;
+    color: #333;
+    border: 0.5px solid #333;
 }
