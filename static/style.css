@@ -40,6 +40,15 @@ a.back_button {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.post_button {
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    align-self: center;
 }
 
 .post h2 {
