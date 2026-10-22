@@ -1,14 +1,62 @@
 [
    {
       "id": 2,
-      "author": "Jane Doe",
-      "title": "Second Post",
-      "content": "This is another post."
+      "title": "First Post",
+      "author": "John Doe",
+      "content": "This is my first post."
    },
    {
       "id": 3,
-      "title": "Test",
-      "author": "James Doe",
-      "content": "New Post"
+      "title": "Second Post",
+      "author": "Jane Doe",
+      "content": "This is another post."
+   },
+   {
+      "id": 4,
+      "title": "Getting Started with Python",
+      "author": "Alice Smith",
+      "content": "Python is a great programming language for beginners. Its simple syntax makes it easy to learn and use."
+   },
+   {
+      "id": 5,
+      "title": "My First Flask Application",
+      "author": "Michael Brown",
+      "content": "Today I created my first web application using Flask. I learned how to define routes, render templates, and handle requests."
+   },
+   {
+      "id": 6,
+      "title": "Why I Love Web Development",
+      "author": "Emily Wilson",
+      "content": "Web development combines creativity and problem-solving. I especially enjoy designing user interfaces and making websites responsive."
+   },
+   {
+      "id": 7,
+      "title": "Understanding HTML and CSS",
+      "author": "David Miller",
+      "content": "HTML provides the structure of a website, while CSS controls its appearance. Together, they form the foundation of modern web development."
+   },
+   {
+      "id": 8,
+      "title": "Learning Git and GitHub",
+      "author": "Sarah Johnson",
+      "content": "Version control is an essential skill for developers. Git helps track changes, while GitHub makes it easier to collaborate and manage projects."
+   },
+   {
+      "id": 9,
+      "title": "Building Responsive Websites",
+      "author": "Daniel White",
+      "content": "Responsive design ensures that websites look good on smartphones, tablets, and desktop computers. Media queries and flexible layouts are key techniques."
+   },
+   {
+      "id": 10,
+      "title": "Working with JSON Data",
+      "author": "Laura Davis",
+      "content": "JSON is a lightweight format for storing and exchanging data. It is commonly used in web applications and APIs."
+   },
+   {
+      "id": 11,
+      "title": "My Journey into Backend Development",
+      "author": "Chris Taylor",
+      "content": "Backend development has introduced me to databases, APIs, and server-side programming. Every new project helps me understand how web applications work behind the scenes."
    }
 ]

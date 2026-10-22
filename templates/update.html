@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Update Post</title>
+    <title>Update Post | My Flask Blog</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -11,11 +11,11 @@
     <form action="{{ url_for('update', post_id=post['id']) }}" method="POST">
 
         <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title" value="{{ post['title'] }}"><br>
+        <input type="text" id="title" name="title" value="{{ post['title'] }}" required><br>
         <label for="author">Autor:</label><br>
-        <input type="text" id="author" name="author" value="{{ post['author'] }}"><br>
+        <input type="text" id="author" name="author" value="{{ post['author'] }}" required><br>
         <label for="content">Content:</label><br>
-        <textarea id="content" name="content">{{ post['content'] }}</textarea>
+        <textarea id="content" name="content" required>{{ post['content'] }}</textarea>
         <br><br>
 
         <input type="submit" value="update">

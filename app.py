@@ -74,7 +74,6 @@ def add():
         author = request.form.get('author')
         content = request.form.get('content')
 
-        # ID ermitteln
         if current_posts:
             post_ids = []
             for post in current_posts:
@@ -137,7 +136,6 @@ def update(post_id):
         return "Post not found", 404
 
     if request.method == 'POST':
-        # Update the post in the JSON file
         post['title'] = request.form.get('title')
         post['author'] = request.form.get('author')
         post['content'] = request.form.get('content')
@@ -150,4 +148,4 @@ def update(post_id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5002, debug=True)

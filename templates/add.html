@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Post</title>
+    <title>Add Post | My Flask Blog</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <h1>Add a new post</h1>
     <form action="/add" method="POST">
         <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title"><br>
+        <input type="text" id="title" name="title" required><br>
         <label for="author">Autor:</label><br>
-        <input type="text" id="author" name="author"><br>
+        <input type="text" id="author" name="author" required><br>
         <label for="content">Content:</label><br>
-        <textarea id="content" name="content"></textarea>
+        <textarea id="content" name="content" required></textarea>
 
         <input type="submit" value="Submit">
     </form>
