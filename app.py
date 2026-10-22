@@ -69,7 +69,7 @@ def add():
     """
     if request.method == 'POST':
         current_posts = load_posts()
-        
+
         title = request.form.get('title')
         author = request.form.get('author')
         content = request.form.get('content')
@@ -150,4 +150,4 @@ def update(post_id):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5002, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
