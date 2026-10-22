@@ -19,7 +19,8 @@
             <p>{{ post['content'] }}</p>
         </div>
         <div class="post_button">
-            <a href="{{ url_for('delete', post_id=post['id']) }}" class="button">delete</a>
+            <a href="{{ url_for('delete', post_id=post['id']) }}" class="button">delete</a><br>
+            <a href="{{ url_for('update', post_id=post['id']) }}" class="button update">update</a>
         </div>
     </div>
     {% endfor %}

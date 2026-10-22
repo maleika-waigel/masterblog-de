@@ -24,6 +24,12 @@ a.button {
     transition: all .2s ease-in-out;
     text-decoration: none;
 }
+.post_button a {
+    padding: 10px 20px;
+    margin: 7px 0 10px 0;
+    width: 50px;
+    text-align: center;
+}
 a.button:hover {
     background: #fff;
     color: #333;
