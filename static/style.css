@@ -84,7 +84,8 @@ form label {
     color: #4F4F4F;
 }
 
-form input[type="text"] {
+form input[type="text"],
+form textarea{
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -98,7 +99,8 @@ form input[type="text"] {
     transition: border-color .2s ease-in-out;
 }
 
-form input[type="text"]:focus {
+form input[type="text"]:focus,
+form textarea:focus{
     outline: none;
     border-color: #4F4F4F;
 }
